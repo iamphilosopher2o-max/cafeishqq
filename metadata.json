@@ -1,0 +1,6 @@
+{
+  "name": "Cafeishqq Café",
+  "description": "Cafeishqq Café in Kanpur, Uttar Pradesh — Sip Slow. Stay Awhile. Freshly prepared fast food, coffee, cold beverages, snacks, and quick bites in a cozy ambiance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
