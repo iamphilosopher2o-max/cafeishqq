@@ -19,7 +19,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onExploreMenu, onOpe
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden border border-[#C6A16B]/30 shadow-2xl group">
               <img
-                src="/src/assets/images/cafe_cozy_ambiance_seating_1792994247689.jpg"
+                src="/assets/images/cafe_cozy_ambiance_seating_1792994247689.jpg"
                 alt="Cozy reading corner booth at Cafeishqq Café"
                 loading="lazy"
                 referrerPolicy="no-referrer"

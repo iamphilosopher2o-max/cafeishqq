@@ -16,7 +16,7 @@ export const CATEGORY_PANELS: CategoryInfo[] = [
   {
     id: 'pizza',
     name: 'PIZZA',
-    image: '/src/assets/images/pizza_margherita_cafe_1793094238848.jpg',
+    image: '/assets/images/pizza_margherita_cafe_1793094238848.jpg',
     note: 'Hand-stretched with melted mozzarella',
   },
   {
@@ -28,49 +28,49 @@ export const CATEGORY_PANELS: CategoryInfo[] = [
   {
     id: 'fries',
     name: 'FRIES',
-    image: '/src/assets/images/crispy_french_fries_1793094240139.jpg',
+    image: '/assets/images/crispy_french_fries_1793094240139.jpg',
     note: 'Crispy golden fries seasoned to perfection',
   },
   {
     id: 'quick-bites',
     name: 'QUICK BITES',
-    image: '/src/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
+    image: '/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
     note: 'Crunchy savory snacks and rolls',
   },
   {
     id: 'garlic-bread',
     name: 'GARLIC BREAD',
-    image: '/src/assets/images/cheesy_garlic_bread_1793094241346.jpg',
+    image: '/assets/images/cheesy_garlic_bread_1793094241346.jpg',
     note: 'Warm toasted with roasted garlic butter',
   },
   {
     id: 'combos',
     name: 'COMBOS',
-    image: '/src/assets/images/cafe_combos_meal_1793194204702.jpg',
+    image: '/assets/images/cafe_combos_meal_1793194204702.jpg',
     note: 'Coordinated bites, sips, and sides',
   },
   {
     id: 'hot-coffee',
     name: 'HOT COFFEE',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
     note: 'Freshly pulled artisan espresso and brews',
   },
   {
     id: 'cold-coffee',
     name: 'COLD COFFEE',
-    image: '/src/assets/images/iced_cold_coffee_1793094240523.jpg',
+    image: '/assets/images/iced_cold_coffee_1793094240523.jpg',
     note: 'Chilled rich coffee with velvety froth',
   },
   {
     id: 'milkshakes',
     name: 'MILKSHAKES',
-    image: '/src/assets/images/milkshake_trio_cafe_1793094257967.jpg',
+    image: '/assets/images/milkshake_trio_cafe_1793094257967.jpg',
     note: 'Thick creamy shakes in vintage glasses',
   },
   {
     id: 'cold-drinks',
     name: 'COLD DRINKS',
-    image: '/src/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
+    image: '/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
     note: 'Chilled sparkling coolers and sodas',
   },
 ];
@@ -115,13 +115,13 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'p-margherita',
     name: 'Margherita Pizza',
     category: 'pizza',
-    image: '/src/assets/images/pizza_margherita_cafe_1793094238848.jpg',
+    image: '/assets/images/pizza_margherita_cafe_1793094238848.jpg',
   },
   {
     id: 'p-veg',
     name: 'Veg Pizza',
     category: 'pizza',
-    image: '/src/assets/images/pizza_margherita_cafe_1793094238848.jpg',
+    image: '/assets/images/pizza_margherita_cafe_1793094238848.jpg',
   },
 
   // MAGGI
@@ -137,19 +137,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'f-classic',
     name: 'Classic French Fries',
     category: 'fries',
-    image: '/src/assets/images/crispy_french_fries_1793094240139.jpg',
+    image: '/assets/images/crispy_french_fries_1793094240139.jpg',
   },
   {
     id: 'f-peri',
     name: 'Peri Peri Fries',
     category: 'fries',
-    image: '/src/assets/images/crispy_french_fries_1793094240139.jpg',
+    image: '/assets/images/crispy_french_fries_1793094240139.jpg',
   },
   {
     id: 'f-cheese',
     name: 'Cheese Fries',
     category: 'fries',
-    image: '/src/assets/images/crispy_french_fries_1793094240139.jpg',
+    image: '/assets/images/crispy_french_fries_1793094240139.jpg',
   },
 
   // QUICK BITES
@@ -157,19 +157,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'qb-nuggets',
     name: 'Veg Nuggets',
     category: 'quick-bites',
-    image: '/src/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
+    image: '/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
   },
   {
     id: 'qb-potato',
     name: 'Crispy Potato Bites',
     category: 'quick-bites',
-    image: '/src/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
+    image: '/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
   },
   {
     id: 'qb-spring',
     name: 'Spring Rolls',
     category: 'quick-bites',
-    image: '/src/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
+    image: '/assets/images/crispy_nuggets_spring_rolls_1793094259214.jpg',
   },
 
   // GARLIC BREAD
@@ -177,13 +177,13 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'gb-classic',
     name: 'Classic Garlic Bread',
     category: 'garlic-bread',
-    image: '/src/assets/images/cheesy_garlic_bread_1793094241346.jpg',
+    image: '/assets/images/cheesy_garlic_bread_1793094241346.jpg',
   },
   {
     id: 'gb-cheese',
     name: 'Cheese Garlic Bread',
     category: 'garlic-bread',
-    image: '/src/assets/images/cheesy_garlic_bread_1793094241346.jpg',
+    image: '/assets/images/cheesy_garlic_bread_1793094241346.jpg',
   },
 
   // COMBOS
@@ -191,19 +191,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'co-burger-fries',
     name: 'Burger & Fries Combo',
     category: 'combos',
-    image: '/src/assets/images/cafe_combos_meal_1793194204702.jpg',
+    image: '/assets/images/cafe_combos_meal_1793194204702.jpg',
   },
   {
     id: 'co-sandwich-fries',
     name: 'Sandwich & Fries Combo',
     category: 'combos',
-    image: '/src/assets/images/cafe_combos_meal_1793194204702.jpg',
+    image: '/assets/images/cafe_combos_meal_1793194204702.jpg',
   },
   {
     id: 'co-coffee-snack',
     name: 'Coffee & Snack Combo',
     category: 'combos',
-    image: '/src/assets/images/cafe_combos_meal_1793194204702.jpg',
+    image: '/assets/images/cafe_combos_meal_1793194204702.jpg',
   },
 
   // HOT COFFEE
@@ -211,25 +211,25 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'hc-espresso',
     name: 'Espresso',
     category: 'hot-coffee',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
   },
   {
     id: 'hc-cappuccino',
     name: 'Cappuccino',
     category: 'hot-coffee',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
   },
   {
     id: 'hc-latte',
     name: 'Café Latte',
     category: 'hot-coffee',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
   },
   {
     id: 'hc-hot-coffee',
     name: 'Hot Coffee',
     category: 'hot-coffee',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
   },
 
   // COLD COFFEE
@@ -237,19 +237,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'cc-classic',
     name: 'Classic Cold Coffee',
     category: 'cold-coffee',
-    image: '/src/assets/images/iced_cold_coffee_1793094240523.jpg',
+    image: '/assets/images/iced_cold_coffee_1793094240523.jpg',
   },
   {
     id: 'cc-chocolate',
     name: 'Chocolate Cold Coffee',
     category: 'cold-coffee',
-    image: '/src/assets/images/iced_cold_coffee_1793094240523.jpg',
+    image: '/assets/images/iced_cold_coffee_1793094240523.jpg',
   },
   {
     id: 'cc-iced',
     name: 'Iced Coffee',
     category: 'cold-coffee',
-    image: '/src/assets/images/iced_cold_coffee_1793094240523.jpg',
+    image: '/assets/images/iced_cold_coffee_1793094240523.jpg',
   },
 
   // MILKSHAKES
@@ -257,19 +257,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'ms-chocolate',
     name: 'Chocolate Milkshake',
     category: 'milkshakes',
-    image: '/src/assets/images/milkshake_trio_cafe_1793094257967.jpg',
+    image: '/assets/images/milkshake_trio_cafe_1793094257967.jpg',
   },
   {
     id: 'ms-vanilla',
     name: 'Vanilla Milkshake',
     category: 'milkshakes',
-    image: '/src/assets/images/milkshake_trio_cafe_1793094257967.jpg',
+    image: '/assets/images/milkshake_trio_cafe_1793094257967.jpg',
   },
   {
     id: 'ms-strawberry',
     name: 'Strawberry Milkshake',
     category: 'milkshakes',
-    image: '/src/assets/images/milkshake_trio_cafe_1793094257967.jpg',
+    image: '/assets/images/milkshake_trio_cafe_1793094257967.jpg',
   },
 
   // COLD DRINKS
@@ -277,19 +277,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'cd-lemon',
     name: 'Lemon Cooler',
     category: 'cold-drinks',
-    image: '/src/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
+    image: '/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
   },
   {
     id: 'cd-mojito',
     name: 'Mojito-Style Cooler',
     category: 'cold-drinks',
-    image: '/src/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
+    image: '/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
   },
   {
     id: 'cd-soft',
     name: 'Soft Drinks',
     category: 'cold-drinks',
-    image: '/src/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
+    image: '/assets/images/refreshing_lemon_cooler_1793094258759.jpg',
   },
 ];
 
@@ -328,14 +328,14 @@ export const GALLERY_IMAGES = [
     id: 'g1',
     title: 'The Cozy Seating Nook',
     subtitle: 'Warm amber glow, wooden bookshelves & plush corners',
-    image: '/src/assets/images/cafe_cozy_ambiance_seating_1792994247689.jpg',
+    image: '/assets/images/cafe_cozy_ambiance_seating_1792994247689.jpg',
     tag: 'Ambiance',
   },
   {
     id: 'g2',
     title: 'Handcrafted Latte Art',
     subtitle: 'Freshly extracted Arabica espresso with silky microfoam',
-    image: '/src/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
+    image: '/assets/images/cafe_signature_cappuccino_1792994245367.jpg',
     tag: 'Coffee',
   },
   {
@@ -356,7 +356,7 @@ export const GALLERY_IMAGES = [
     id: 'g5',
     title: 'Main Hall Evening Glow',
     subtitle: 'Where conversations and warm laughter unfold in Kanpur',
-    image: '/src/assets/images/hero_cafeishqq_interior_1792994244346.jpg',
+    image: '/assets/images/hero_cafeishqq_interior_1792994244346.jpg',
     tag: 'Ambiance',
   },
 ];

@@ -23,7 +23,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({
         const parsed: MenuItem[] = JSON.parse(saved);
         return parsed.map((item) => {
           const cat = CATEGORY_PANELS.find((c) => c.id === item.category);
-          if (cat && (!item.image || item.image.includes('cafe_gourmet_burger') || item.image.includes('cafe_grilled_sandwich') || item.image.includes('masala_maggi'))) {
+          if (cat && (!item.image || item.image.includes('cafe_gourmet_burger') || item.image.includes('cafe_grilled_sandwich') || item.image.includes('masala_maggi') || item.category === 'pizza' || item.image.startsWith('/src/'))) {
             return { ...item, image: cat.image };
           }
           return item;

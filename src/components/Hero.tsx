@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onFindCafe }) => {
       {/* Background Wide Café Photograph with Measured Scrim for WCAG AA readability */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_cafeishqq_interior_1792994244346.jpg"
+          src="/assets/images/hero_cafeishqq_interior_1792994244346.jpg"
           alt="Cafeishqq Café warm interior atmosphere in Kanpur"
           referrerPolicy="no-referrer"
           fetchPriority="high"
