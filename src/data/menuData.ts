@@ -4,13 +4,13 @@ export const CATEGORY_PANELS: CategoryInfo[] = [
   {
     id: 'burgers',
     name: 'BURGERS',
-    image: '/src/assets/images/cafe_gourmet_burger_1792994246633.jpg',
+    image: '/assets/aistudio/4538a999-685e-48be-82dc-75297f24f57e_4d81bce3.png',
     note: 'Fresh toasted buns with savory fillings',
   },
   {
     id: 'sandwiches',
     name: 'SANDWICHES',
-    image: '/src/assets/images/cafe_grilled_sandwich_1792994247694.jpg',
+    image: '/assets/aistudio/61d7a797-bcb2-45a7-82e3-ec766cb5fb7b_77ce31a7.png',
     note: 'Golden grilled with visible grill marks',
   },
   {
@@ -22,7 +22,7 @@ export const CATEGORY_PANELS: CategoryInfo[] = [
   {
     id: 'maggi',
     name: 'MAGGI',
-    image: '/src/assets/images/masala_maggi_cafe_1793094239887.jpg',
+    image: '/assets/aistudio/c770c925-52cb-4089-aa5e-abe78f770e23_1e4fb119.png',
     note: 'Freshly prepared hot masala noodles',
   },
   {
@@ -81,19 +81,19 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'b-classic',
     name: 'Classic Veg Burger',
     category: 'burgers',
-    image: '/src/assets/images/cafe_gourmet_burger_1792994246633.jpg',
+    image: '/assets/aistudio/4538a999-685e-48be-82dc-75297f24f57e_4d81bce3.png',
   },
   {
     id: 'b-cheese',
     name: 'Cheese Burger',
     category: 'burgers',
-    image: '/src/assets/images/cafe_gourmet_burger_1792994246633.jpg',
+    image: '/assets/aistudio/4538a999-685e-48be-82dc-75297f24f57e_4d81bce3.png',
   },
   {
     id: 'b-crispy',
     name: 'Crispy Veg Burger',
     category: 'burgers',
-    image: '/src/assets/images/cafe_gourmet_burger_1792994246633.jpg',
+    image: '/assets/aistudio/4538a999-685e-48be-82dc-75297f24f57e_4d81bce3.png',
   },
 
   // SANDWICHES
@@ -101,13 +101,13 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 's-veg',
     name: 'Veg Grilled Sandwich',
     category: 'sandwiches',
-    image: '/src/assets/images/cafe_grilled_sandwich_1792994247694.jpg',
+    image: '/assets/aistudio/61d7a797-bcb2-45a7-82e3-ec766cb5fb7b_77ce31a7.png',
   },
   {
     id: 's-cheese',
     name: 'Cheese Grilled Sandwich',
     category: 'sandwiches',
-    image: '/src/assets/images/cafe_grilled_sandwich_1792994247694.jpg',
+    image: '/assets/aistudio/61d7a797-bcb2-45a7-82e3-ec766cb5fb7b_77ce31a7.png',
   },
 
   // PIZZA
@@ -129,7 +129,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     id: 'm-masala',
     name: 'Masala Maggi',
     category: 'maggi',
-    image: '/src/assets/images/masala_maggi_cafe_1793094239887.jpg',
+    image: '/assets/aistudio/c770c925-52cb-4089-aa5e-abe78f770e23_1e4fb119.png',
   },
 
   // FRIES
@@ -342,14 +342,14 @@ export const GALLERY_IMAGES = [
     id: 'g3',
     title: 'Gourmet Cheese Burger',
     subtitle: 'Toasted bun with savory patty and melted cheese',
-    image: '/src/assets/images/cafe_gourmet_burger_1792994246633.jpg',
+    image: '/assets/aistudio/4538a999-685e-48be-82dc-75297f24f57e_4d81bce3.png',
     tag: 'Food',
   },
   {
     id: 'g4',
     title: 'Golden Grilled Sandwich',
     subtitle: 'Toasted golden with visible grill marks',
-    image: '/src/assets/images/cafe_grilled_sandwich_1792994247694.jpg',
+    image: '/assets/aistudio/61d7a797-bcb2-45a7-82e3-ec766cb5fb7b_77ce31a7.png',
     tag: 'Food',
   },
   {

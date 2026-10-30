@@ -40,7 +40,7 @@ const EDITORIAL_GALLERY_ITEMS: GalleryItem[] = [
     id: 'g4',
     title: 'Golden Panini Toastie',
     subtitle: 'Three-cheese pull with fresh mint mayo and herbs',
-    image: '/src/assets/images/cafe_grilled_sandwich_1792994247694.jpg',
+    image: '/assets/aistudio/61d7a797-bcb2-45a7-82e3-ec766cb5fb7b_77ce31a7.png',
     tag: 'Food',
     span: 'lg:col-span-4 lg:row-span-1',
   },
